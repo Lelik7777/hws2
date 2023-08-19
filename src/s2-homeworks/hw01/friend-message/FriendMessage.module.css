@@ -1,17 +1,26 @@
 .friendMessage {
-
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 50px;
 }
 
 .friendImageAndText {
-
+  display: flex;
+  gap:10px;
 }
 
 .friendImageAndText img {
-
+width: 50px;
 }
 
 .friendText {
-
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fb;
+  border-radius: 15px;
+  padding:  10px 5px ;
 }
 
 .friendText:after {

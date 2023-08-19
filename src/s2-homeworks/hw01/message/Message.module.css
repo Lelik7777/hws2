@@ -1,17 +1,28 @@
 .message {
-
+display: flex;
+flex-direction: column;
+text-align: right;
+margin: 0 50px;
 }
 
 .imageAndText {
+display: flex;
+flex-direction: row-reverse;
+gap:10px
 
 }
 
 .imageAndText img {
-
+width: 50px;
 }
 
 .text {
-
+width: 40%;
+display: flex;
+flex-direction: column;
+background-color: #0066cc;
+border-radius: 15px;
+padding:  10px 5px ;
 }
 
 .text:after {
