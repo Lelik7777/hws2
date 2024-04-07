@@ -1,15 +1,31 @@
 .radio {
+  background-color: black;
+  width: 20px;
+  height: 20px;
 }
-
+.radio:active {
+  background-color: black;
+}
 .radio::before {
+  background-color: black;
 }
-
 
 .radio:checked::before {
+  background-color: black;
 }
 
 .label {
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  font-size: 16px;
 }
 
 .options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
 }
