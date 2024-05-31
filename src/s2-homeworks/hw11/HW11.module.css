@@ -1,16 +1,21 @@
 .container {
+  padding: 0 20px;
 }
 
 .wrapper {
-  display: flex;
-  gap: 13px;
+  position: relative;
 }
 
 .number {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+  position: absolute;
+  top: 10%;
+  left: -2%;
 }
-.range {
-  width: 95%;
+.number_right {
+  left: 101.5%;
+}
+.range1 {
 }
